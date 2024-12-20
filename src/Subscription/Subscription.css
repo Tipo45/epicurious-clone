@@ -1,0 +1,19 @@
+.holder {
+    padding: 10% 10px;
+    display: flex;
+}
+
+.holder img {
+    width: 180px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.holder p {
+    padding-left: 6%;
+    font-size: 1rem;
+}
+
+.holder p span {
+    font-weight: bold;
+}

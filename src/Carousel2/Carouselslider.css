@@ -1,0 +1,30 @@
+.carousel-images {
+    padding-top: 4%;
+}
+
+.carousel-images img {
+    width: 190px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.carousel-images p {
+    padding-top: 4%;
+    font-size: 1.2rem;
+}
+
+.rate-icon {
+    padding: 4%;
+    margin-left: 165px;
+}
+
+.rate-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    padding-right: 12%;
+}
+
+.rate-icon svg, .rate-icons svg {
+    font-size: 1.1rem;
+}

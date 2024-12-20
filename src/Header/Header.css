@@ -1,0 +1,53 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 5% 16px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.main-header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.main-header span svg {
+    font-size: 1.2rem;
+}
+
+.logo {
+    color: #eb0000;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-left: 70px;
+}
+
+.subscribe {
+    padding-left: 10px;
+    color: #eb0000;
+    font-weight: 500;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar .search-icon {
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+    top: 50%;
+    left: 2%;
+    padding: 1px;
+    pointer-events: none;
+}
+
+.search-bar input {
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    padding: 2% 27px;
+    border: solid 1px;
+    outline: none;
+}
